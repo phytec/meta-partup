@@ -20,7 +20,7 @@ IMAGE_FSTYPES += "partup"
 | `PARTUP_PACKAGE_DEPENDS` | Recipes whose `do_deploy` (or `recipe:task`) must run before packaging                               |
 | `PARTUP_PACKAGE_SUFFIX`  | Package file suffix (default `.partup`)                                                              |
 | `PARTUP_LAYOUT_CONFIG`   | Layout YAML file name (default `${IMAGE_LINK_NAME}.yaml`)                                            |
-| `PARTUP_SEARCH_PATH`     | Search path for the layout file (default: recipe dir and `files/partup` in each `BBPATH` entry)      |
+| `PARTUP_SEARCH_PATH`     | Search path for the layout file (default: recipe dir and `partup` in each `BBPATH` entry)            |
 | `PARTUP_SECTIONS`        | Names of optional `# BEGIN_<NAME>` / `# END_<NAME>` blocks; enabled by `PARTUP_SECTION_<name> = "1"` |
 | `PARTUP_ARRAYS`          | Names of `# ARRAY_<NAME>` templates, expanded from `PARTUP_ARRAY_<name>`, replacing `@KEY@`          |
 
