@@ -1,6 +1,7 @@
 # meta-partup
 
-OpenEmbedded/Yocto layer providing the `partup` tool recipes and the
+OpenEmbedded/Yocto layer providing the
+[partup](https://github.com/phytec/partup) tool recipes and the
 `image-types-partup` image class to build `.partup` packages.
 
 ## Usage
